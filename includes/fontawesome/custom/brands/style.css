@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'custom-brands';
+  src:  url('fonts/custom-brands.eot?s9lq71');
+  src:  url('fonts/custom-brands.eot?s9lq71#iefix') format('embedded-opentype'),
+    url('fonts/custom-brands.ttf?s9lq71') format('truetype'),
+    url('fonts/custom-brands.woff?s9lq71') format('woff'),
+    url('fonts/custom-brands.svg?s9lq71#custom-brands') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="custom-brand-"], [class*=" custom-brand-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'custom-brands' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-brand-aseprite:before {
+  content: "\e900";
+}
+.custom-brand-substance-painter:before {
+  content: "\e901";
+}
+.custom-brand-substance-painter2:before {
+  content: "\e905";
+}
+.custom-brand-krita:before {
+  content: "\e902";
+}
+.custom-brand-unity:before {
+  content: "\e903";
+}
+.custom-brand-blender:before {
+  content: "\e904";
+}
