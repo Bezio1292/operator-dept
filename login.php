@@ -21,7 +21,7 @@
 			<form id='login-form' class="row flex-column align-items-center mt-2 " action='authentication/login.php' method="POST">
 				<input type="text" name="username" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" autocomplete="off" placeholder="Username">
 				<input type="password" name="password" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" autocomplete="off" placeholder="Password">
-				<button type="submit" id="btn-log-in" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" onclick="">Log in</button>
+				<button type="submit" id="btn-log-in" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" onclick=""><span>Log in<span></button>
 			</form>
 			<div id="btn-register" class="col-12 d-flex justify-content-center text-white mb-5 h6">You don't have an account? <div id="register">Too bad, we don't accept new users.</div></div>
 		</div>
