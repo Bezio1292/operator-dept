@@ -108,7 +108,7 @@ body{
 .button-loading::after {
     content: "";
     position: absolute;
-    height:70%;
+    height:60%;
     aspect-ratio: 1/1;
     top: 0;
     left: 0;
@@ -118,17 +118,24 @@ body{
     border: 4px solid transparent;
     border-top-color: #ffffff;
     border-radius: 50%;
-    animation: button-loading-spinner 1s ease infinite;
+    animation: button-loading-spinner 1s ease infinite, show-animation 0.5s;
 }
 
 @keyframes button-loading-spinner {
     from {
         transform: rotate(0turn);
     }
-
     to {
         transform: rotate(1turn);
     }
+}
+@keyframes show-animation {
+  from {
+      opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #btn-register div{
@@ -140,4 +147,3 @@ body{
 #btn-register div:hover{
   color: #0cbc46;
 }
-
