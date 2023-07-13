@@ -46,16 +46,13 @@ $("#register").dblclick(function(e){
 });
 
 function loading(){
-  btnLogIn.height(btnLogIn.height()); // the f***
-  btnLogIn.text("");
+  $("span", btnLogIn).css("visibility", "hidden");
   btnLogIn.addClass("button-loading");
 }
 
 function del_loading(){
-
-  btnLogIn.removeClass("button-loading");
-  btnLogIn.text("Log in");
-  btnLogIn.css('height', 'auto');
+  btnLogIn.removeClass("button-loading", 2000);
+  $("span", btnLogIn).css("visibility", "visible");
 }
 
 function shake(){
