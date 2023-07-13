@@ -17,11 +17,11 @@
 	<div class="container">
 		<div id="main-page" class="row flex-column align-items-center">
 			<img class="col-9 col-lg-4 order-1 order-lg-0" style="margin-top:-25px;" src="login-files/svg/planet.svg">
-			<div id="login-info" class="text-white text-center col-12 col-lg-5 mt-4 mt-lg-1"> Operator Department </div>
-			<form id='login-form' class="row flex-column align-items-center mt-3" action='authentication/login.php' method="POST">
-				<input type="text" name="username" class="btn-page col-10 col-lg-5 mb-4 p-3 p-lg-2" autocomplete="off" placeholder="Username">
-				<input type="password" name="password" class="btn-page col-10 col-lg-5 mb-4 p-3 p-lg-2" autocomplete="off" placeholder="Password">
-				<button type="submit" id="btn-log-in" class="btn-page col-10 col-lg-5 mb-4 p-3 p-lg-2" onclick="">Log in</button>
+			<div id="login-info" class="text-white text-center col-12 col-lg-5 mt-2 mt-lg-0"> Operator Department </div>
+			<form id='login-form' class="row flex-column align-items-center mt-2 " action='authentication/login.php' method="POST">
+				<input type="text" name="username" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" autocomplete="off" placeholder="Username">
+				<input type="password" name="password" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" autocomplete="off" placeholder="Password">
+				<button type="submit" id="btn-log-in" class="btn-page col-10 col-lg-5 mb-3 mb-lg-4 p-3 p-lg-2" onclick="">Log in</button>
 			</form>
 			<div id="btn-register" class="col-12 d-flex justify-content-center text-white mb-5 h6">You don't have an account? <div id="register">Too bad, we don't accept new users.</div></div>
 		</div>
